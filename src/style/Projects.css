@@ -23,7 +23,7 @@
   display: none;
 }
 
-/* .project-img:hover .description{
+.project-img:hover .description{
   display: block;
   background-color: #F37B83;
   color: #FAEFFF;
@@ -34,7 +34,7 @@
   z-index: 2;
   border-radius: 2px;
   padding: 5%;
-} */
+}
 
 .description-title {
   font-weight: 700;
