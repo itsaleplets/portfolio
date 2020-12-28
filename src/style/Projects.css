@@ -15,7 +15,7 @@
 .project-img {
   z-index: 1;
   position: relative;
-  transition: all 0.5s ease-out;
+  /* transition: all 0.5s ease-out; */
   /* opacity: 82%; */
 }
 
@@ -23,7 +23,7 @@
   display: none;
 }
 
-.project-img:hover .description{
+/* .project-img:hover .description{
   display: block;
   background-color: #F37B83;
   color: #FAEFFF;
@@ -34,7 +34,7 @@
   z-index: 2;
   border-radius: 2px;
   padding: 5%;
-}
+} */
 
 .description-title {
   font-weight: 700;

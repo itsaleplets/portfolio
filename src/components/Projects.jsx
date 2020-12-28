@@ -36,14 +36,14 @@ function Projects() {
         </div>
 
         <div className="project-img">
-          <img alt="" src={trivia} width="200px" />
           <a href="https://github.com/itsaleplets/trivia-game" target="blank">
+          <img alt="" src={trivia} width="200px" />
+          </a>
             <div className="description">
               <span className="description-title">Trivia</span>
               <img alt="icon" src={triviaIcon} className="trivia-icon"/>
               <p className="description-p">It is a project where you can test your knowledge answering general questions and checking your rate at the end.</p>
             </div>
-          </a>
         </div>
       </div>
     </div>
