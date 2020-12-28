@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.img-width {
+  width: 200px;
+}
+
 .project-img-div {
   margin-top: 3%;
   width: 85%;
@@ -16,7 +20,7 @@
   z-index: 1;
   position: relative;
   /* transition: all 0.5s ease-out; */
-  /* opacity: 90%; */
+  /* opacity: 82%; */
 }
 
 .description {

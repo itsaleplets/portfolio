@@ -14,7 +14,7 @@ function Projects() {
       <div className="project-img-div">
 
         <div className="project-img">
-          <img alt="" src={hacka} width="200px" />
+          <img alt="" src={hacka} className="img-width"/>
           <a href="https://github.com/itsaleplets/hackathonAmbev" target="blank">
             <div className="description">
               <span className="description-title">Hackathon</span>
@@ -25,7 +25,7 @@ function Projects() {
         </div>
 
         <div className="project-img">
-          <img alt="" src={tarot} width="200px" />
+          <img alt="" src={tarot} className="img-width" />
           <a href="https://github.com/itsaleplets/tarot-vision" target="blank">
             <div className="description">
               <span className="description-title">Tarot Vision</span>
@@ -36,7 +36,7 @@ function Projects() {
         </div>
 
         <div className="project-img">
-          <img alt="" src={trivia} width="200px" />
+          <img alt="" src={trivia} className="img-width" />
           <a href="https://github.com/itsaleplets/trivia-game" target="blank">
             <div className="description">
               <span className="description-title">Trivia</span>
