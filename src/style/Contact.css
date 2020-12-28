@@ -30,3 +30,22 @@
   color:#FAEFFF;
   font-size: 15px;
 }
+
+@media screen and (max-width: 900px) {
+  .contact-main {
+    margin-left: 0%;
+  }
+  
+  .contact-div {
+    display: flex;
+    margin-top: 5%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-p {
+    width: 80%;
+  }
+}

@@ -17,6 +17,22 @@
 .skills-div {
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 0 6% -8%;
+}
+
+@media screen and (max-width: 900px) {
+  .skills-main {
+    margin: 0 0 4% 0%;
+  }
+  
+  .skill-list {
+    width: 30vw;
+    padding: 5%;
+    font-size: 14px;
+  }
+  
+  .skills-div {
+    width: 70%;
+  }
 }

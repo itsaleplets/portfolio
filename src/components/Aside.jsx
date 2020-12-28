@@ -3,7 +3,7 @@ import '../style/Aside.css';
 
 function Aside() {
   return(
-    <aside>
+    <aside className="display">
       <span className="aside-title">N A M E</span>
       <span className="aside-info">Alessandra Santos</span>
       <span className="aside-title">R O L E</span>

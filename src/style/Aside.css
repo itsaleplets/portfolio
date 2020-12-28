@@ -30,3 +30,9 @@ aside {
   color: #A88590;
   font-size: 25px;
 }
+
+@media screen and (max-width: 900px) {
+  .display {
+    display: none;
+  }
+}

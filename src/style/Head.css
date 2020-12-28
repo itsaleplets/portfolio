@@ -52,3 +52,37 @@
 .head-p {
   margin-right: 8%;
 }
+
+@media screen and (max-width: 900px) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .head-main {
+    height: 100vh;
+  }
+  
+  .head-info {
+    margin:  5% 0 2% 6%;
+  }
+  
+  .head-pic {
+    margin-left: -3%;
+  }
+  
+  .head-subTitle {
+    font-size: 1.3em;
+    margin-left: -10%;
+  }
+  
+  .head-title {
+    font-size: 3em;
+  }
+  
+  .head-contact {
+    width: 90vw;
+    margin: 10% 0 0 5%;
+  }
+}
