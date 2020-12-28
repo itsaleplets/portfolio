@@ -1,0 +1,72 @@
+.project-main {
+  margin: 0 0 10% 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-img-div {
+  margin-top: 3%;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-img {
+  z-index: 1;
+  position: relative;
+  transition: all 0.5s ease-out;
+  opacity: 82%;
+}
+
+.description {
+  display: none;
+}
+
+.project-img:hover .description{
+  display: block;
+  background-color: #F37B83;
+  color: #FAEFFF;
+  position: absolute;
+  top: 0px;
+  width: 180px;
+  height: 145px;
+  z-index: 2;
+  border-radius: 2px;
+  padding: 5%;
+}
+
+.description-title {
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #F37B83;
+  margin-left: 5%;
+}
+
+.description-p {
+  background-color: #F37B83;
+  color: #FAEFFF;
+  font-size: 12px;
+  line-height: 20px;
+  width: fit-content;
+  padding: 5%;
+}
+
+.tarot-icon {
+  background-color: #F37B83;
+  width: 35px;
+  margin-left: 20%;
+}
+
+.trivia-icon {
+  background-color: #F37B83;
+  width: 18px;
+  margin-left: 50%;
+}
+
+.hacka-icon {
+  background-color: #F37B83;
+  width: 20px;
+  margin-left: 30%;
+}
+

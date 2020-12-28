@@ -1,0 +1,54 @@
+.head, .head-p, a, .head-contact, .head-main, .head-title, .head-subTitle, .head-info {
+  background-color: #F9F0FF;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 85vh;
+}
+
+.head-main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.head-info {
+  padding-top: 10%;
+  margin-left:  25%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-pic {
+  width: 280px;
+  margin-left: 5%;
+}
+
+.head-subTitle {
+  color: #492D31;
+  font-size: 1.5em;
+}
+
+.head-title {
+  margin: 25px 0 20px 0;
+  font-size: 4em;
+  color: #F37B83;
+  width: 100%;
+}
+
+.head-contact {
+  width: 40%;
+  margin-left: 28%;
+  display: flex;
+  justify-content: space-around;
+  color: #492D31;
+  font-size: 9px;
+}
+
+.head-p {
+  margin-right: 8%;
+}

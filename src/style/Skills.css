@@ -1,0 +1,22 @@
+.skills-main {
+  margin: 0 0 4% 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-list {
+  color: #F37B83;
+  width: 100%;
+  background-color: #362A2E;
+  margin: 10%;
+  padding: 5% 15% 5% 15%;
+  font-size: 15px;
+}
+
+.skills-div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 6% -8%;
+}

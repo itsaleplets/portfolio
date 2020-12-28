@@ -1,0 +1,15 @@
+footer {
+  margin: 8% 0 0 25%;
+  padding-top: 3% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #362A2E;
+}
+
+.copyright {
+  font-size: 13px;
+  background-color: #362A2E;
+  margin: 0 0 4% 65%;
+  width: 100%;
+}

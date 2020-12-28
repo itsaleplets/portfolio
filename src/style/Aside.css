@@ -1,0 +1,32 @@
+aside {
+  background-color: #362A2E;
+  color: white;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  font-size: 11px;
+}
+
+.aside-title, .aside-info, .signature {
+  margin-left: 17%;
+  background-color: #362A2E;
+}
+
+.aside-title {
+  color: #F37B83;
+}
+
+.aside-info {
+  color: #FAEFFF;
+  margin-bottom: 20px;
+}
+
+.signature {
+  font-family: 'Mrs Saint Delafield', cursive;
+  margin-top: 20%;
+  color: #A88590;
+  font-size: 25px;
+}

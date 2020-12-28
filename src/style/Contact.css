@@ -1,0 +1,32 @@
+.contact-main {
+  margin-left: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-div {
+  display: flex;
+  margin-top: 5%;
+  width: 30vw;
+}
+
+.contact-btn {
+  color: #FAEFFF;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  padding: 4%;
+  background-color: #F37B83;
+  margin: 7%;
+}
+
+.contact-p {
+  width: 50%;
+}
+
+.contact-a {
+  background-color: #F37B83;
+  color:#FAEFFF;
+  font-size: 15px;
+}
