@@ -65,24 +65,28 @@
   }
   
   .head-info {
-    margin:  5% 0 2% 6%;
+    margin:  5% 0 2% 5%;
   }
   
   .head-pic {
     margin-left: -3%;
+    width: 230px;
   }
   
   .head-subTitle {
     font-size: 1.3em;
-    margin-left: -10%;
+    margin-top: 18%;
   }
   
   .head-title {
     font-size: 3em;
+    margin-top: 5%;
+    width: 79vw;
   }
   
   .head-contact {
     width: 90vw;
-    margin: 10% 0 0 5%;
+    /* height: 100vh; */
+    margin: 19% 0 0 5%;
   }
 }

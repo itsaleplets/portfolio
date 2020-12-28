@@ -23,16 +23,16 @@
 
 @media screen and (max-width: 900px) {
   .skills-main {
-    margin: 0 0 4% 0%;
+    margin: 0 0 4% 3%;
   }
   
   .skill-list {
-    width: 30vw;
+    width: 35vw;
     padding: 5%;
     font-size: 14px;
   }
   
   .skills-div {
-    width: 70%;
+    width: 95%;
   }
 }

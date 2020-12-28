@@ -20,7 +20,8 @@ footer {
   }
   
   .copyright {
-    font-size: 13px;
-    margin: 5%;
+    font-size: 11px;
+    width: 80vw;
+    margin: 8% 0 8% 0;
   }
 }
