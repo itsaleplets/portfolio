@@ -8,7 +8,7 @@ function Contact() {
       <p className="contact-p">Would you like to know more about me or the projects I'm working on? Don't hesitate to get in touch!</p>
       <div className="contact-div">
         <div className="contact-btn">
-          <a href="" target="_blank" rel="noreferrer" className="contact-a">
+          <a href="home" target="_blank" rel="noreferrer" className="contact-a">
             E M A I L
           </a>
         </div>

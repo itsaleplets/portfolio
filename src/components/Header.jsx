@@ -16,7 +16,7 @@ function Head() {
       <div className="head-contact">
         <a href="https://www.linkedin.com/in/alessandraplets/" target="_blank" rel="noreferrer">L  I  N  K  E D  I  N</a>
         <a href="https://github.com/itsaleplets" target="_blank" rel="noreferrer">G I T H U B</a>
-        <a href="" target="_blank" rel="noreferrer">P R O J E C T S</a>
+        <a href="home" target="_blank" rel="noreferrer">P R O J E C T S</a>
       </div>
     </main>
   )

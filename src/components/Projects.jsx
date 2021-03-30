@@ -1,18 +1,19 @@
 import React from 'react';
 import '../style/Projects.css';
-import trivia from '../images/trivia.png';
+import trip from '../images/trip.png';
 import tarot from '../images/tarot.png';
 import hacka from '../images/hacka.png';
+import chat from '../images/chat.png';
+import chatIcon from '../images/chatIcon.png';
 import beerIcon from '../images/beerIcon.png';
 import tarotIcon from '../images/tarotIcon.png';
-import triviaIcon from '../images/triviaIcon.png';
+import tripIcon from '../images/tripIcon.png';
 
 function Projects() {
   return (
     <div className="project-main">
       <h2>Projects</h2>
       <div className="project-img-div">
-
         <div className="project-img">
           <img alt="" src={hacka} className="img-width"/>
           <a href="https://github.com/itsaleplets/hackathonAmbev" target="blank">
@@ -34,18 +35,33 @@ function Projects() {
             </div>
           </a>
         </div>
-
-        <div className="project-img">
-          <img alt="" src={trivia} className="img-width" />
-          <a href="https://github.com/itsaleplets/trivia-game" target="blank">
-            <div className="description">
-              <span className="description-title">Trivia</span>
-              <img alt="icon" src={triviaIcon} className="trivia-icon"/>
-              <p className="description-p">It is a project where you can test your knowledge answering general questions and checking your rate at the end.</p>
-            </div>
-          </a>
-        </div>
+ 
       </div>
+
+      <div className="project-img-div">
+        <div className="project-img">
+            <img alt="" src={trip} className="img-width" />
+            <a href="https://github.com/itsaleplets/LandingPageSmiles" target="blank">
+              <div className="description">
+                <span className="description-title">TripInvest</span>
+                <img alt="icon" src={tripIcon} className="hacka-icon"/>
+                <p className="description-p">The landing page of my lastest project, an app to organize your trips. Soon you'll be able to access it. Check its repository on my github as "hackathonSmile"</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="project-img">
+            <img alt="" src={chat} className="img-width" />
+            <a href="https://github.com/itsaleplets/LandingPageSmiles" target="blank">
+              <div className="description">
+                <span className="description-title">Chatty</span>
+                <img alt="icon" src={chatIcon} className="trivia-icon"/>
+                <p className="description-p">A dynamic chat built in Redux to gather basic user information and send to an API. This chatbot asks you questions and offers you the right answer! </p>
+              </div>
+            </a>
+          </div>
+      </div>
+     
     </div>
   )
 }
