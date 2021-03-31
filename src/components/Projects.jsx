@@ -52,7 +52,7 @@ function Projects() {
 
           <div className="project-img">
             <img alt="" src={chat} className="img-width" />
-            <a href="https://github.com/itsaleplets/LandingPageSmiles" target="blank">
+            <a href="https://github.com/itsaleplets/chat" target="blank">
               <div className="description">
                 <span className="description-title">Chatty</span>
                 <img alt="icon" src={chatIcon} className="trivia-icon"/>
